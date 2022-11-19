@@ -1,0 +1,47 @@
+[
+    {
+        "id": "147146a0342debce",
+        "type": "ibmiot in",
+        "z": "GCDQq)QAaX4ofi(NU1",
+        "authentication": "apiKey",
+        "apiKey": "a-sp7szg-cizsxt24b4",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "967700",
+        "applicationId": "",
+        "deviceType": "BIN4",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": false,
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": 0,
+        "x": 230,
+        "y": 1000,
+        "wires": [
+            [
+                "71be31afc89560dd",
+                "a0cbff62cdd2e77c",
+                "c49cd92e337f886b"
+            ]
+        ]
+    },
+    {
+        "id": "147146a0342debce",
+        "type": "ibmiot",
+        "name": "Sugunya",
+        "keepalive": "60",
+        "serverName": "",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    }
+]
